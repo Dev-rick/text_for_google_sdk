@@ -1,1 +1,1 @@
-# text_for_google_sdk
+# Simple App to show how to use jinja
