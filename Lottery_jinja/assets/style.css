@@ -1,6 +1,12 @@
+.underline {
+    text-decoration: underline;
+}
+
 body{
-background-color: #F2F2F2;
-font-size: 20px;
+    background-color: #F2F2F2;
+    font-family: 'Tangerine', serif;
+    font-size: 35px;
+    text-shadow: 4px 4px 4px #aaa;
 }
 
 header {
@@ -14,21 +20,20 @@ header {
 }
 
 #YesButton {
-  display: inline-block;
-  border: 1px solid black;
-  padding: 0.5em 1.1em;
-  text-decoration: none;
-  color: #757575;
-  background-color: #F2F2F2;
-  font-family: arial, sans-serif;
-  font-size: 0.8em;
-  font-weight: 600;
-  border-radius: 0.2em;
+    display: inline-block;
+    border: 1px solid #aaa;
+    padding: 0.5em 1.1em;
+    text-decoration: none;
+    color: #757575;
+    background-color: #F2F2F2;
+    font-size: 0.8em;
+    font-weight: 600;
+    border-radius: 0.2em;
 }
 
 #YesButton:hover {
-  border: 1.5px solid #757575 ;
-  color: black;
+     border: 1.5px solid #757575 ;
+     color: black;
 }
 
 
