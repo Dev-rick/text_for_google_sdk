@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="assets/style.css" />
+    <title>gen_numbers</title>
+</head>
+<body>
+
+    <header>
+        <h2>Here are 8 random generated numbers:</h2>
+    </header>
+
+    <p>{{list_of_gen_numbers}}</p>
+
+    <hr>
+
+    <p>Or written by bullet points:</p>
+    <ul>
+    {% for number in list_of_gen_numbers %}
+        <li>{{ number }}</li>
+    {% endfor %}
+    </ul>
+    <footer>
+        <span class="rightfooter">
+            {{time}}
+        </span>
+    </footer>
+</body>
+</html>
